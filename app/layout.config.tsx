@@ -4,20 +4,20 @@ import { pageTree } from '@/app/source';
 
 // shared configuration
 export const baseOptions: HomeLayoutProps = {
-  nav: {
-    title: 'Easy Docs',
-  },
-  links: [
-    {
-      text: 'Documentation',
-      url: '/docs',
-      active: 'nested-url',
+    nav: {
+        title: 'Doc SETPay',
     },
-  ],
+    links: [
+        {
+            text: 'Documentation',
+            url: '/docs',
+            active: 'nested-url',
+        },
+    ],
 };
 
 // docs layout configuration
 export const docsOptions: DocsLayoutProps = {
-  ...baseOptions,
-  tree: pageTree,
+    ...baseOptions,
+    tree: pageTree,
 };
